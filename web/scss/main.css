@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  font-family: "Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif"; }
+
+h1, h2, h3, h4 {
+  font-family: 'Verdana, Geneva, sans-serif'; }
+
+.layout1 {
+  background-image: url(../images/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; }
+
+footer {
+  position: relative;
+  z-index: 1;
+  height: -3em;
+  margin-top: 2em;
+  color: #276BA8;
+  background-color: #87C1F5;
+  height: 100px;
+  text-align: center; }
+
+.foot-links {
+  text-align: center; }
+  .foot-links li {
+    display: inline;
+    margin: 0 10px; }
+    .foot-links li a {
+      color: #276BA8; }
+
+#login a {
+  color: #276BA8; }
+#login img {
+  width: 100px;
+  height: 100px; }
+#login [type=submit] {
+  background-color: #87C1F5;
+  color: #FFFFFF; }
+
+.card {
+  box-shadow: 5px 10px 18px #276BA8;
+  position: relative;
+  margin-top: 7em; }
+
+.card-header {
+  background-color: #87C1F5; }
+
+.h3 {
+  color: #FFFFFF; }
+
+.checkbox {
+  margin-left: 18px; }
+
+#signup a {
+  color: #276BA8; }
+#signup [type=submit] {
+  background-color: #87C1F5;
+  color: #FFFFFF; }
+
+.btn-logOut {
+  color: #276BA8;
+  border-color: #87C1F5; }
+
+.btn-logOut:hover {
+  color: #FFFFFF;
+  background-color: #87C1F5;
+  border-color: #276BA8; }
+
+#dropdownMenuButton, .profileBtn {
+  background-color: #87C1F5;
+  color: #FFFFFF; }
+
+.anuncio {
+  margin: 1em 2em;
+  padding: 0.5em; }
+
+.titulo {
+  background-image: radial-gradient(#87C1F5, #276BA8, #87C1F5);
+  color: #FFFFFF; }
+
+h2 {
+  color: #87C1F5; }
+
+h3 {
+  color: #A8792D; }
+
+h4 {
+  color: #F5C473; }
+
+.homeLink {
+  border: outset #A8792D 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-image: linear-gradient(90deg, #F5C473, #A8792D);
+  margin: 1em 2em;
+  padding: 0.5em; }
+
+.homeLink:hover {
+  text-decoration: none;
+  color: #FFFFFF; }
+
+.imgHome {
+  box-shadow: 5px 10px 15px #A8792D; }
+
+.imageProfile {
+  width: 160px;
+  height: 160px; }
+
+.laws {
+  margin: auto;
+  padding: 0em 1em;
+  background-color: #87C1F5; }
+
+/*# sourceMappingURL=main.css.map */

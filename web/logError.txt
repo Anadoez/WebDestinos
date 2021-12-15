@@ -1,0 +1,2 @@
+Call to a member function create_session() on null0.30689900 1581093831
+Call to undefined method Model::usuarios()0.83104000 1621809926

@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  font-family: "Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif"; }
+
+h1, h2, h3, h4 {
+  font-family: 'Verdana, Geneva, sans-serif'; }
+
+.lawLayout {
+  color: #276BA8;
+  background-image: linear-gradient(to right, #87C1F5, #e6ffff); }
+
+.laws {
+  margin: auto; }
+
+footer {
+  color: #276BA8;
+  background-color: #87C1F5;
+  height: 100px;
+  text-align: center;
+  margin-top: 15em; }
+
+.foot-links {
+  text-align: center; }
+  .foot-links li {
+    display: inline;
+    margin: 0 10px; }
+    .foot-links li a {
+      color: #276BA8; }
+
+.titl {
+  color: #276BA8;
+  display: flow-root; }
+  .titl h1 {
+    font-size: 47px; }
+
+h1, h2, h3 {
+  color: #276BA8; }
+
+h2 {
+  font-size: 30px; }
+
+h3 {
+  font-size: 25px; }
+
+/*# sourceMappingURL=law.css.map */

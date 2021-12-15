@@ -1,0 +1,147 @@
+@charset "utf-8";
+@mixin link(){
+    a{
+        color:$darkBlue; 
+      }
+}
+@mixin submit(){
+    [type=submit]{
+        background-color: $lighBlue;
+        color:$whte;
+    }
+}
+$darkBlue:#276BA8;
+$lighBlue:#87C1F5;
+$lighOr:#F5C473;
+$dkOr:#A8792D;
+$whte:#FFFFFF;
+//General
+*{
+    box-sizing: border-box;
+    font-family: "Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif"
+}
+h1,h2,h3,h4{
+    font-family:'Verdana, Geneva, sans-serif';
+}
+
+//Layout 1
+.layout1{
+    background-image: url(../images/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+   // background-image: radial-gradient(#FFD4C1,$lighBwn, $dkBwn);
+}
+footer{
+    position: relative; 
+    z-index: 1;
+    height: -3em; 
+    margin-top: 2em; 
+    color:$darkBlue;
+        background-color: $lighBlue;
+        height:100px ;
+        text-align: center;
+}
+.foot-links{
+    text-align: center;
+    li{
+        display:inline;
+        margin: 0 10px;
+        @include link();
+        
+    }
+}
+//Login
+#login{
+    @include link();
+    img{
+        width:100px;
+        height:100px;
+    }
+    @include submit();
+}
+.card{
+    box-shadow: 5px 10px 18px $darkBlue;
+    position: relative; 
+    margin-top:7em;
+}
+.card-header{
+    background-color:$lighBlue ;
+    
+}
+.h3{
+    color:$whte;
+}
+.checkbox{
+    margin-left: 18px;
+}
+//Sign Up
+#signup{
+    @include link();
+    @include submit();  
+}
+//Layout2
+
+
+.btn-logOut {
+    color: $darkBlue;
+    border-color: $lighBlue;
+  }
+  
+  .btn-logOut:hover {
+    color: $whte;
+    background-color: $lighBlue;
+    border-color: $darkBlue;
+  }
+  #dropdownMenuButton,.profileBtn{
+      background-color: $lighBlue;
+      color:$whte;
+  }
+  .anuncio{
+    margin:1em 2em;
+    padding: 0.5em;
+  }
+  //Home
+  .titulo{
+    background-image: radial-gradient($lighBlue, $darkBlue, $lighBlue);
+    color:$whte;
+  }
+  h2{
+      color: $lighBlue;
+      
+  }
+  h3{
+      color: $dkOr;
+  }
+  h4{
+      color: $lighOr;
+  }
+  .homeLink{
+      border:outset $dkOr 5px ;
+      border-radius: 5px;
+      text-decoration: none;
+      color:$whte;
+      background-image:linear-gradient(90deg,$lighOr,$dkOr) ;
+      margin:1em 2em;
+      padding: 0.5em;
+  }
+  .homeLink:hover{
+      text-decoration: none;
+      color:$whte;
+  }
+  .imgHome{
+    box-shadow: 5px 10px 15px $dkOr;
+  }
+  //Profile
+.imageProfile{
+    width: 160px;
+    height: 160px;
+}
+  //lawLayout
+  .laws{
+        margin:auto;
+        padding: 0em 1em;
+        background-color: $lighBlue;
+  }

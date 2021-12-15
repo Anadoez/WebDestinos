@@ -1,0 +1,59 @@
+@charset "utf-8";
+@mixin link(){
+    a{
+        color:$darkBlue; 
+      }
+}
+$darkBlue:#276BA8;
+$lighBlue:#87C1F5;
+$lighOr:#F5C473;
+$dkOr:#A8792D;
+$whte:#FFFFFF;
+*{
+    box-sizing: border-box;
+    font-family: "Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif";
+}
+h1,h2,h3,h4{
+    font-family:'Verdana, Geneva, sans-serif';
+}
+.lawLayout{
+    color:$darkBlue;
+    background-image: linear-gradient(to right, $lighBlue  , #e6ffff);
+}
+.laws{
+    margin:auto;
+}
+footer{
+        color:$darkBlue;
+        background-color: $lighBlue;
+        height:100px ;
+        text-align: center;
+        margin-top: 15em; 
+}
+.foot-links{
+    text-align: center;
+    li{
+        display:inline;
+        margin: 0 10px;
+        @include link();
+        
+    }
+}
+.titl{
+    color:$darkBlue;
+    display:flow-root;
+   h1{
+        font-size: 47px;  
+    } 
+}
+
+h1,h2,h3{
+    color:$darkBlue;
+}
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
